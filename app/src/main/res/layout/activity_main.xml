@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lht.chapter02.MainActivity">
+
+    <Button
+        android:id="@+id/bt_snackbarActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snackbar的使用"
+        android:onClick="MyClick"/>
+
+    <Button
+        android:id="@+id/bt_textInputLayoutActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextInputLayout"
+        android:onClick="MyClick"/>
+
+    <Button
+        android:id="@+id/bt_floatingActionButtonActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FloatingActionButton"
+        android:onClick="MyClick"/>
+
+    <Button
+        android:id="@+id/bt_tabLayoutActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TabLayout"
+        android:onClick="MyClick"/>
+
+    <Button
+        android:id="@+id/bt_collapsingToolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CollapsingToolbarLayout"
+        android:onClick="MyClick"/>
+</LinearLayout>
